@@ -4,7 +4,7 @@ MAINTAINER zsnmwy <szlszl35622@gmail.com>
 
 EXPOSE 8080
 
-WORKDIR /srv/www
+WORKDIR /srv/www/tmp
 
 ENV DB_HOST='127.0.0.1'\
     DB_USER='root'\
